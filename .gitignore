@@ -1,0 +1,19 @@
+# Segredos
+.env
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Banco vetorial local (gerado ao indexar)
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

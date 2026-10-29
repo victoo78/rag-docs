@@ -1,0 +1,10 @@
+anthropic>=0.40
+chromadb>=0.5
+pypdf>=4.0
+streamlit>=1.36
+python-dotenv>=1.0
+reportlab>=4.0            # só para gerar os PDFs de exemplo
+
+# Opcional (recomendado para português): embeddings multilíngues.
+# Instala PyTorch (~1-2 GB). Sem ele, o ChromaDB usa um modelo leve em inglês.
+# sentence-transformers>=3.0
